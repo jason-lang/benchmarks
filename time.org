@@ -1,15 +1,12 @@
 Time in seconds from "real" output from command "time"
 
-new nb = i5 dual core 2.9Ghz 8Gb
-
-ns parece mais lento, mas teve algo mais entre 1.4.2 e ns q causou a
-lentidao, ver token 1. ns não causou mais lentidão, foi outra coisa
+new Jomi's notebook time, a mac book pro i5 dual core 2.9Ghz 8Gb
 
 remember to turn web interface off
 
 * token 1
 
-| java   | jason         | tempo (real) |
+| java   | jason         | time (real) |
 |--------+---------------+--------------|
 | java 8 | agere13       |          4.5 |
 |        | hash in clone |          4.6 |
@@ -22,7 +19,7 @@ remember to turn web interface off
 
 * token 2
 
-| java   | jason         | tempo (real) |
+| java   | jason         | time (real) |
 |--------+---------------+--------------|
 | java 8 | agere13       |           43 |
 |        | hash in clone |           33 |
@@ -35,7 +32,7 @@ remember to turn web interface off
 
 * token 3
 
-| java   | jason         | tempo (real) |
+| java   | jason         | time (real) |
 |--------+---------------+--------------|
 | java 8 | agere13       |           17 |
 |        | hash in clone |            6 |
@@ -48,7 +45,7 @@ remember to turn web interface off
 
 * fat
 
-| java   | jason         | tempo (real) |
+| java   | jason         | time (real) |
 |--------+---------------+--------------|
 | java 8 | hash in clone |          2.0 |
 | new nb | jason 1.4.2   |          1.7 |
@@ -59,7 +56,7 @@ remember to turn web interface off
 
 * fib
 
-| java   | jason             | tempo (real) |
+| java   | jason             | time (real) |
 |--------+-------------------+--------------|
 | java 8 | agere13           |           27 |
 |        | hash in clone     |           24 |
@@ -75,7 +72,7 @@ remember to turn web interface off
 
 * so-fib
 
-| java   | jason         | tempo (real) |
+| java   | jason         | time (real) |
 |--------+---------------+--------------|
 | java 8 | hash in clone |          3.8 |
 | new nb | jason 1.4.2   |          3.2 |
@@ -86,7 +83,7 @@ remember to turn web interface off
 
 * internal action performance
 
-| java   | jason         | tempo (real) |
+| java   | jason         | time (real) |
 |--------+---------------+--------------|
 | java 8 | hash in clone |          2.2 |
 | new nb | jason 1.4.2   |          2.0 |
@@ -97,7 +94,7 @@ remember to turn web interface off
 
 * search
 
-| java   | jason         | tempo medido pelo programa (rule/plan) | tempo (real) |
+| java   | jason         | time medido pelo programa (rule/plan) | time (real) |
 |--------+---------------+----------------------------------------+--------------|
 | java 8 | hash in clone | 119/57                                 |          4.1 |
 | new nb | jason 1.4.2   | 117/68                                 |          4.2 |
@@ -108,7 +105,7 @@ remember to turn web interface off
 
 * st claus
 
-| java   | jason         | tempo (real) |
+| java   | jason         | time (real) |
 |--------+---------------+--------------|
 | java 8 | agere13       |         0.48 |
 |        | hash in clone |         0.84 |
@@ -121,7 +118,7 @@ remember to turn web interface off
 
 * bufeval
 
-| java   | jason     | tempo (real) |
+| java   | jason     | time (real) |
 |--------+-----------+--------------|
 | java 8 |           |              |
 | new nb | buf n^2   |           40 |
@@ -129,5 +126,3 @@ remember to turn web interface off
 |        | maicon    |            5 |
 |        | jason 2.0 |            5 |
 |        |           |              |
-
-
