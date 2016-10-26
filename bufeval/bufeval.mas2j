@@ -1,0 +1,12 @@
+MAS bufeval {
+
+	infrastructure: Centralised
+
+	environment: BigEnv
+
+	agents:
+		agent1 sample_agent;
+
+	aslSourcePath:
+		"src/asl";
+}

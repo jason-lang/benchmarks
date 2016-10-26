@@ -1,0 +1,11 @@
+/* Jason Project */
+
+MAS fat {
+
+    infrastructure: Centralised
+
+    agents:
+        a;
+
+}
+

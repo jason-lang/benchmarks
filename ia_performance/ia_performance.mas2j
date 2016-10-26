@@ -1,0 +1,11 @@
+/* Jason Project */
+
+MAS ia_performance {
+
+    infrastructure: Centralised
+
+    agents:
+        a;
+
+}
+

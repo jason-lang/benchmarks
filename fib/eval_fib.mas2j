@@ -1,0 +1,14 @@
+MAS eval_fib {
+
+	infrastructure: Centralised(pool,4,1,40,9999,5)
+	//infrastructure: Centralised(asynch,1,1,2,1,40,9999)
+	
+
+	agents:
+		manager;
+		fibonacher;
+		client #100;
+
+	aslSourcePath:
+		"src/asl";
+}

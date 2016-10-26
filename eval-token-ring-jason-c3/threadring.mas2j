@@ -1,0 +1,12 @@
+MAS threadring {
+
+	infrastructure: Centralised(pool,8,1,1,10,5)
+	                //Centralised(asynch,4,4,4,5)
+
+	agents:
+		thread #500;
+		counter;
+
+	aslSourcePath:
+		"src/asl";
+}

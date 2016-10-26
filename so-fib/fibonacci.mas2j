@@ -1,0 +1,6 @@
+/* Jason computing Fibonacci numbers */
+MAS fibonacci {
+
+    infrastructure: Centralised
+    agents: fibonacci;          
+}
