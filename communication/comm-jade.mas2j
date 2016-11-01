@@ -1,0 +1,18 @@
+/* Jason Project to test performance */
+
+// we have 30 sender agents and 30 receiver agents
+// a sender broadcasts 100 messages to receivers,
+// so one sender sends 3000 messages, we got 90000 messages
+// when a receiver gets 3000 messages,
+// they send a message to terminator. more 30 messages
+
+MAS commPerformance {
+
+    infrastructure: Jade // values: Centralised, Jade
+
+    agents:
+        sender   #30;
+        receiver #30;
+        terminator;
+
+}
