@@ -1,7 +1,7 @@
 nbAg(500).
 nbTokens1(1000).
 nbTokens2(50).
-turns(500).
+turns(5000).
 
 !init.
 
@@ -10,7 +10,7 @@ turns(500).
      .my_name(M) & .delete("thread", M, NS) &
      .term2string(N,NS) &
      Y = N mod 500 + 1 &
-	 .concat("thread",Y,X)
+	 .concat("thread",Y,X)  // computes my next
   <- +next(X);
 	 if (.my_name(thread500)) {
 		CALC = (T1/Ags)-1;
@@ -28,8 +28,8 @@ turns(500).
 
 +!token(2,T,0) <- .send(counter,tell,finished(T)).
 
-+!token(2,T,N) : next(X)  <- .send(X,achieve,token(2,T,N-1)).
-+!token(1,T,N) : next(X) <-  !busy(1000); .send(X,achieve,token(1,T,N)).
++!token(2,T,N) : next(X) <- .send(X,achieve,token(2,T,N-1)).
++!token(1,T,N) : next(X) <- !busy(1000); .send(X,achieve,token(1,T,N)).
 +!token(K,T,N)  <- .wait({+next(_)}); !token(K,T,N).
 
 +!busy(0).

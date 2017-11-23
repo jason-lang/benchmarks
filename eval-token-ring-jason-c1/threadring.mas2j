@@ -4,10 +4,6 @@ MAS threadring {
 	                Centralised(pool,4)
 
 	agents:
-
 		thread #500;
 
-
-	aslSourcePath:
-		"src/asl";
 }

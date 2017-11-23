@@ -1,4 +1,4 @@
-This bechmark is published in the paper
+This benchmark is published in the paper
 
 Rafael C. Cardoso, Maicon R. Zatelli, Jomi F. Hübner, and Rafael
 H. Bordini. Towards benchmarking actor- and agent-based programming
@@ -17,12 +17,10 @@ Configuration
 - worker 500 should be linked back to worker 1, forming an unbroken
   ring;
 
-- initially pass T tokens to workers ramdomly assigned to a worker;
+- initially pass T tokens to workers randomly assigned to a worker;
 
 - each worker passes the token to its neighbouring worker (i.e., the
   worker it is linked to);
 
 - the program halts when all T tokens have been passed, between any
   two workers, N times each.
-
-

@@ -7,6 +7,4 @@ MAS threadring {
 		thread #500;
 		counter;
 
-	aslSourcePath:
-		"src/asl";
 }
