@@ -1,128 +1,149 @@
 Time in seconds from "real" output from command "time"
 
-new Jomi's notebook time, a mac book pro i5 dual core 2.9Ghz 8Gb
+Jomi's notebook nb1, a mac book pro i5 dual core 2.9Ghz 8Gb
+iMac1: Mid 2011, 4 core, 1 proc, 24G ram
 
 remember to turn web interface off
 
 * token 1
 
 | java   | jason         | time (real) |
-|--------+---------------+--------------|
-| java 8 | agere13       |          4.5 |
-|        | hash in clone |          4.6 |
-| new nb | jason 1.4.2   |          4.2 |
-|        | pre ns        |          5.1 |
-|        | ns            |          5.1 |
-|        | maicon        |          5.2 |
-|        | jason 2.0     |          4.3 |
-|        |               |              |
+|--------+---------------+-------------|
+| java 8 | agere13       |         4.5 |
+|        | hash in clone |         4.6 |
+| nb1    | jason 1.4.2   |         4.2 |
+|        | pre ns        |         5.1 |
+|        | ns            |         5.1 |
+|        | maicon        |         5.2 |
+|        | jason 2.0     |         4.3 |
+| iMac1  | jason 1.4.2   |           6 |
+| java10 | jason 2.0     |           9 |
+|        | jason 2.1     |           9 |
+|        | jason 2.2     |           9 |
+|        | jason 2.3     |           9 |
+|        | jason 2.4     |           8 |
+
 
 * token 2
 
 | java   | jason         | time (real) |
-|--------+---------------+--------------|
-| java 8 | agere13       |           43 |
-|        | hash in clone |           33 |
-| new nb | jason 1.4.2   |           39 |
-|        | ns            |           45 |
-|        | maicon        |           46 |
-|        | pool,4,5      |           33 |
-|        | jason 2.0     |           31 |
-|        |               |              |
+|--------+---------------+-------------|
+| java 8 | agere13       |          43 |
+|        | hash in clone |          33 |
+| nb1    | jason 1.4.2   |          39 |
+|        | ns            |          45 |
+|        | maicon        |          46 |
+|        | pool,4,5      |          33 |
+|        | jason 2.0     |          31 |
+|        |               |             |
 
 * token 3
 
 | java   | jason         | time (real) |
-|--------+---------------+--------------|
-| java 8 | agere13       |           17 |
-|        | hash in clone |            6 |
-| new nb | jason 1.4.2   |            8 |
-|        | ns            |            9 |
-|        | maicon        |            8 |
-|        | pool,8,1,1,10 |            4 |
-|        | jason 2.0     |          3.3 |
-|        |               |              |
+|--------+---------------+-------------|
+| java 8 | agere13       |          17 |
+|        | hash in clone |           6 |
+| nb1    | jason 1.4.2   |           8 |
+|        | ns            |           9 |
+|        | maicon        |           8 |
+|        | pool,8,1,1,10 |           4 |
+|        | jason 2.0     |         3.3 |
+| iMac1  | jason 1.4.2   |          17 |
+| java10 | jason 2.0     |          13 |
+|        | jason 2.1     |          13 |
+|        | jason 2.2     |          13 |
+|        | jason 2.3     |          13 |
+|        | jason 2.4     |          13 |
+|        |               |             |
 
 * fat
 
 | java   | jason         | time (real) |
-|--------+---------------+--------------|
-| java 8 | hash in clone |          2.0 |
-| new nb | jason 1.4.2   |          1.7 |
-|        | ns            |          1.7 |
-|        | maicon        |          1.7 |
-|        | jason 2.0     |          1.3 |
-|        |               |              |
+|--------+---------------+-------------|
+| java 8 | hash in clone |         2.0 |
+| nb1    | jason 1.4.2   |         1.7 |
+|        | ns            |         1.7 |
+|        | maicon        |         1.7 |
+|        | jason 2.0     |         1.3 |
+|        |               |             |
 
 * fib
 
 | java   | jason             | time (real) |
-|--------+-------------------+--------------|
-| java 8 | agere13           |           27 |
-|        | hash in clone     |           24 |
-| new nb | jason 1.4.2       |           19 |
-|        | ns                |           18 |
-|        | maicon            |           18 |
-|        | pool,4,1,1,10,5   |           14 |
-|        | pool,4,1,40,40,5  |           13 |
-|        | threads           |           13 |
-|        | asynch,1,1,2,1,40 |           13 |
-|        | jason 2.0         |           11 |
-|        |                   |              |
+|--------+-------------------+-------------|
+| java 8 | agere13           |          27 |
+|        | hash in clone     |          24 |
+| nb1    | jason 1.4.2       |          19 |
+|        | ns                |          18 |
+|        | maicon            |          18 |
+|        | pool,4,1,1,10,5   |          14 |
+|        | pool,4,1,40,40,5  |          13 |
+|        | threads           |          13 |
+|        | asynch,1,1,2,1,40 |          13 |
+|        | jason 2.0         |          11 |
+|        |                   |             |
 
 * so-fib
 
 | java   | jason         | time (real) |
-|--------+---------------+--------------|
-| java 8 | hash in clone |          3.8 |
-| new nb | jason 1.4.2   |          3.2 |
-|        | ns            |          3.1 |
-|        | maicon        |          3.0 |
-|        | jason 2.0     |          2.7 |
-|        |               |              |
+|--------+---------------+-------------|
+| java 8 | hash in clone |         3.8 |
+| nb1    | jason 1.4.2   |         3.2 |
+|        | ns            |         3.1 |
+|        | maicon        |         3.0 |
+|        | jason 2.0     |         2.7 |
+|        |               |             |
 
 * internal action performance
 
 | java   | jason         | time (real) |
-|--------+---------------+--------------|
-| java 8 | hash in clone |          2.2 |
-| new nb | jason 1.4.2   |          2.0 |
-|        | ns            |          2.1 |
-|        | maicon        |          1.9 |
-|        | jason 2.0     |          1.7 |
-|        |               |              |
+|--------+---------------+-------------|
+| java 8 | hash in clone |         2.2 |
+| nb1    | jason 1.4.2   |         2.0 |
+|        | ns            |         2.1 |
+|        | maicon        |         1.9 |
+|        | jason 2.0     |         1.7 |
+|        |               |             |
 
 * search
 
 | java   | jason         | time medido pelo programa (rule/plan) | time (real) |
-|--------+---------------+----------------------------------------+--------------|
-| java 8 | hash in clone | 119/57                                 |          4.1 |
-| new nb | jason 1.4.2   | 117/68                                 |          4.2 |
-|        | ns            | 152/61                                 |          4.7 |
-|        | main          | 159/61                                 |          4.6 |
-|        | jason 2.0     | 106/55                                 |          3.7 |
-|        |               |                                        |              |
+|--------+---------------+---------------------------------------+-------------|
+| java 8 | hash in clone | 119/57                                |         4.1 |
+| nb1    | jason 1.4.2   | 117/68                                |         4.2 |
+|        | ns            | 152/61                                |         4.7 |
+|        | main          | 159/61                                |         4.6 |
+|        | jason 2.0     | 106/55                                |         3.7 |
+| iMac1  | jason 1.4.2   | 290/144                               |           7 |
+| java10 | jason 2.0     | 234/86                                |           7 |
+|        | jason 2.1     | 234/144                               |           6 |
+|        | jason 2.2     | 181/87                                |           6 |
+|        | jason 2.3     | 239/95                                |           7 |
+|        | jason 2.4     | 191/83                                |           6 |
+|        |               |                                       |             |
 
 * st claus
 
 | java   | jason         | time (real) |
-|--------+---------------+--------------|
-| java 8 | agere13       |         0.48 |
-|        | hash in clone |         0.84 |
-| new nb | jason 1.4.2   |         0.88 |
-|        | ns            |         0.89 |
-|        | maicon        |         0.52 |
-| n=2000 |               |           11 |
-|        | jason 2.0     |           11 |
-|        |               |              |
+|--------+---------------+-------------|
+| java 8 | agere13       |        0.48 |
+|        | hash in clone |        0.84 |
+| nb1    | jason 1.4.2   |        0.88 |
+|        | ns            |        0.89 |
+|        | maicon        |        0.52 |
+| n=2000 |               |          11 |
+|        | jason 2.0     |          11 |
+| iMac1  | jason 2.3     |          11 |
+| java10 | jason 2.4     |          11 |
+|        |               |             |
 
 * bufeval
 
 | java   | jason     | time (real) |
-|--------+-----------+--------------|
-| java 8 |           |              |
-| new nb | buf n^2   |           40 |
-| new nb | buf 3n    |            5 |
-|        | maicon    |            5 |
-|        | jason 2.0 |            5 |
-|        |           |              |
+|--------+-----------+-------------|
+| java 8 |           |             |
+| nb1    | buf n^2   |          40 |
+| nb1    | buf 3n    |           5 |
+|        | maicon    |           5 |
+|        | jason 2.0 |           5 |
+|        |           |             |
