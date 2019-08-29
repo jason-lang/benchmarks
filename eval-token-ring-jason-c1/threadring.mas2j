@@ -1,7 +1,7 @@
 MAS threadring {
 
 	infrastructure: //Centralised(asynch,2,2,2,5)
-	                Centralised(pool,4)
+	                Centralised(pool,16)
 
 	agents:
 		thread #500;

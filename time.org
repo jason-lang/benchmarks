@@ -7,54 +7,59 @@ remember to turn web interface off
 
 * token 1
 
-| java   | jason         | time (real) |
-|--------+---------------+-------------|
-| java 8 | agere13       |         4.5 |
-|        | hash in clone |         4.6 |
-| nb1    | jason 1.4.2   |         4.2 |
-|        | pre ns        |         5.1 |
-|        | ns            |         5.1 |
-|        | maicon        |         5.2 |
-|        | jason 2.0     |         4.3 |
-| iMac1  | jason 1.4.2   |           6 |
-| java10 | jason 2.0     |           9 |
-|        | jason 2.1     |           9 |
-|        | jason 2.2     |           9 |
-|        | jason 2.3     |           9 |
-|        | jason 2.4     |           8 |
+| java   | jason           | time (real) |
+|--------+-----------------+-------------|
+| java 8 | agere13         |         4.5 |
+|        | hash in clone   |         4.6 |
+| nb1    | jason 1.4.2     |         4.2 |
+|        | pre ns          |         5.1 |
+|        | ns              |         5.1 |
+|        | maicon          |         5.2 |
+|        | jason 2.0       |         4.3 |
+| iMac1  | jason 1.4.2     |           6 |
+| java10 | jason 2.0       |           9 |
+|        | jason 2.1       |           9 |
+|        | jason 2.2       |           9 |
+|        | jason 2.3       |           9 |
+|        | jason 2.4       |           8 |
+| java12 | imac27, pool 16 |         2.6 |
+|        |                 |             |
+
 
 
 * token 2
 
-| java   | jason         | time (real) |
-|--------+---------------+-------------|
-| java 8 | agere13       |          43 |
-|        | hash in clone |          33 |
-| nb1    | jason 1.4.2   |          39 |
-|        | ns            |          45 |
-|        | maicon        |          46 |
-|        | pool,4,5      |          33 |
-|        | jason 2.0     |          31 |
-|        |               |             |
+| java   | jason           | time (real) |
+|--------+-----------------+-------------|
+| java 8 | agere13         |          43 |
+|        | hash in clone   |          33 |
+| nb1    | jason 1.4.2     |          39 |
+|        | ns              |          45 |
+|        | maicon          |          46 |
+|        | pool,4,5        |          33 |
+|        | jason 2.0       |          31 |
+| java12 | imac27, pool 16 |          11 |
+|        |                 |             |
 
 * token 3
 
-| java   | jason         | time (real) |
-|--------+---------------+-------------|
-| java 8 | agere13       |          17 |
-|        | hash in clone |           6 |
-| nb1    | jason 1.4.2   |           8 |
-|        | ns            |           9 |
-|        | maicon        |           8 |
-|        | pool,8,1,1,10 |           4 |
-|        | jason 2.0     |         3.3 |
-| iMac1  | jason 1.4.2   |          17 |
-| java10 | jason 2.0     |          13 |
-|        | jason 2.1     |          13 |
-|        | jason 2.2     |          13 |
-|        | jason 2.3     |          13 |
-|        | jason 2.4     |          13 |
-|        |               |             |
+| java   | jason           | time (real) |
+|--------+-----------------+-------------|
+| java 8 | agere13         |          17 |
+|        | hash in clone   |           6 |
+| nb1    | jason 1.4.2     |           8 |
+|        | ns              |           9 |
+|        | maicon          |           8 |
+|        | pool,8,1,1,10   |           4 |
+|        | jason 2.0       |         3.3 |
+| iMac1  | jason 1.4.2     |          17 |
+| java10 | jason 2.0       |          13 |
+|        | jason 2.1       |          13 |
+|        | jason 2.2       |          13 |
+|        | jason 2.3       |          13 |
+|        | jason 2.4       |          13 |
+| java12 | imac27, pool 16 |           4 |
+|        |                 |             |
 
 * fat
 
@@ -81,6 +86,8 @@ remember to turn web interface off
 |        | threads           |          13 |
 |        | asynch,1,1,2,1,40 |          13 |
 |        | jason 2.0         |          11 |
+| java12 | imac27, asybnc    |           9 |
+|        | pool 16           |           9 |
 |        |                   |             |
 
 * so-fib
@@ -120,22 +127,24 @@ remember to turn web interface off
 |        | jason 2.2     | 181/87                                |           6 |
 |        | jason 2.3     | 239/95                                |           7 |
 |        | jason 2.4     | 191/83                                |           6 |
+| java12 | imac27        | 97/43                                 |         3.3 |
 |        |               |                                       |             |
 
 * st claus
 
-| java   | jason         | time (real) |
-|--------+---------------+-------------|
-| java 8 | agere13       |        0.48 |
-|        | hash in clone |        0.84 |
-| nb1    | jason 1.4.2   |        0.88 |
-|        | ns            |        0.89 |
-|        | maicon        |        0.52 |
-| n=2000 |               |          11 |
-|        | jason 2.0     |          11 |
-| iMac1  | jason 2.3     |          11 |
-| java10 | jason 2.4     |          11 |
-|        |               |             |
+| java   | jason           | time (real) |
+|--------+-----------------+-------------|
+| java 8 | agere13         |        0.48 |
+|        | hash in clone   |        0.84 |
+| nb1    | jason 1.4.2     |        0.88 |
+|        | ns              |        0.89 |
+|        | maicon          |        0.52 |
+| n=2000 |                 |          11 |
+|        | jason 2.0       |          11 |
+| iMac1  | jason 2.3       |          11 |
+| java10 | jason 2.4       |          11 |
+| java12 | imac27, pool 16 |          11 |
+|        |                 |             |
 
 * bufeval
 
