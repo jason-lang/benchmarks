@@ -3,8 +3,6 @@ Time in seconds from "real" output from command "time"
 Jomi's notebook nb1, a mac book pro i5 dual core 2.9Ghz 8Gb
 iMac1: Mid 2011, 4 core, 1 proc, 24G ram
 
-remember to turn web interface off
-
 * token 1
 
 | java   | jason           | time (real) |
@@ -155,4 +153,5 @@ remember to turn web interface off
 | nb1    | buf 3n    |           5 |
 |        | maicon    |           5 |
 |        | jason 2.0 |           5 |
+| java12 | imac27    |         3.2 |
 |        |           |             |
