@@ -21,6 +21,7 @@ iMac1: Mid 2011, 4 core, 1 proc, 24G ram
 |        | jason 2.3       |           9 |
 |        | jason 2.4       |           8 |
 | java12 | imac27, pool 16 |         2.6 |
+|        | jason 2.6       |         2.2 |
 |        |                 |             |
 
 
@@ -37,6 +38,7 @@ iMac1: Mid 2011, 4 core, 1 proc, 24G ram
 |        | pool,4,5        |          33 |
 |        | jason 2.0       |          31 |
 | java12 | imac27, pool 16 |          11 |
+|        | jason 2.6       |          10 |
 |        |                 |             |
 
 * token 3
@@ -57,6 +59,7 @@ iMac1: Mid 2011, 4 core, 1 proc, 24G ram
 |        | jason 2.3       |          13 |
 |        | jason 2.4       |          13 |
 | java12 | imac27, pool 16 |           4 |
+|        | jason 2.6       |         3.4 |
 |        |                 |             |
 
 * fat
@@ -68,6 +71,7 @@ iMac1: Mid 2011, 4 core, 1 proc, 24G ram
 |        | ns            |         1.7 |
 |        | maicon        |         1.7 |
 |        | jason 2.0     |         1.3 |
+|        | jason 2.6     |         1.0 |
 |        |               |             |
 
 * fib
@@ -86,6 +90,7 @@ iMac1: Mid 2011, 4 core, 1 proc, 24G ram
 |        | jason 2.0         |          11 |
 | java12 | imac27, asybnc    |           9 |
 |        | pool 16           |           9 |
+|        | jason 2.6         |           9 |
 |        |                   |             |
 
 * so-fib
@@ -97,6 +102,7 @@ iMac1: Mid 2011, 4 core, 1 proc, 24G ram
 |        | ns            |         3.1 |
 |        | maicon        |         3.0 |
 |        | jason 2.0     |         2.7 |
+|        | jason 2.6     |         2.1 |
 |        |               |             |
 
 * internal action performance
@@ -108,6 +114,7 @@ iMac1: Mid 2011, 4 core, 1 proc, 24G ram
 |        | ns            |         2.1 |
 |        | maicon        |         1.9 |
 |        | jason 2.0     |         1.7 |
+|        | jason 2.6     |         1.2 |
 |        |               |             |
 
 * search
@@ -126,6 +133,7 @@ iMac1: Mid 2011, 4 core, 1 proc, 24G ram
 |        | jason 2.3     | 239/95                                |           7 |
 |        | jason 2.4     | 191/83                                |           6 |
 | java12 | imac27        | 97/43                                 |         3.3 |
+|        | jason 2.6     | 110/49                                |         3.0 |
 |        |               |                                       |             |
 
 * st claus
@@ -142,6 +150,7 @@ iMac1: Mid 2011, 4 core, 1 proc, 24G ram
 | iMac1  | jason 2.3       |          11 |
 | java10 | jason 2.4       |          11 |
 | java12 | imac27, pool 16 |          11 |
+|        | jason 2.6       |          11 |
 |        |                 |             |
 
 * bufeval
@@ -154,4 +163,5 @@ iMac1: Mid 2011, 4 core, 1 proc, 24G ram
 |        | maicon    |           5 |
 |        | jason 2.0 |           5 |
 | java12 | imac27    |         3.2 |
+|        | jason 2.6 |         3.1 |
 |        |           |             |
