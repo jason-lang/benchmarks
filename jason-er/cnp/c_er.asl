@@ -37,11 +37,14 @@ all_proposals_received(CNPId, NP)                // NP: number of participants
        <- .df_search("participant",LP);
           .send(LP,tell,cfp(Id,Task)).
 
+    +!bids(LP) : all_proposals_received(Id, .length(LP)). // all proposals received before starting 'bids'
     +!bids(LP) : NP = .length(LP) <: false {
        <- .wait(4000); .done.
        +propose(Id,_) : all_proposals_received(Id, NP) <- .done.
        +refuse(Id)    : all_proposals_received(Id, NP) <- .done.
     }
+    //+!bids(LP) // the deadline of the CNP is now + 4 seconds (or all proposals received)
+    //  <- .wait(all_proposals_received(Id,.length(LP)), 4000, _).
 
     +!winner(LO,WAg)
         : .findall(offer(O,A),propose(Id,O)[source(A)],LO) & LO \== []
