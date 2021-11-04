@@ -8,6 +8,6 @@ do
   for j in {1..5}
   do
     echo -n $i, >&2
-    time java -cp ../../libs/jason-er.jar jason.infra.centralised.RunCentralisedMAS cnp-er.mas2j
+    time java -cp "$JASON_HOME/libs/*":bin/classes jason.infra.local.RunLocalMAS cnp-er.mas2j
   done
 done

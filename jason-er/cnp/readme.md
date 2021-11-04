@@ -16,6 +16,7 @@ It is expected a minimal overhead against Jason due to goal condition (GC). Thes
 ## Method
 
 Three MAS application are considered and compared:
+
 - JasonER: the initiator of CNP uses JasonER features (sub-plans, goal condition, ...)
 - Jason1: the initiator of CNP uses Jason1 features (events)
 - Jason2: the initiator of CNP uses Jason2 features (`.wait(<expression>)`)
@@ -51,6 +52,7 @@ JasonER is faster because:
 ## Implementation
 
 We have the following agent programs (.asl):
+
 - `p.asl`, `pn.asl`, `pr.asl`: CNP participant agents (the same code for all applications)
 - `c_j1.asl`: Jason implementation of CNP initiator (based on CNP code available in Jason < 2.0). Without .wait(<expression>).
 - `c_j2.asl` : Jason implementation of CNP initiator (based on CNP code available in Jason > 2.0). Contains .wait(<expression>).

@@ -26,23 +26,24 @@ all_proposals_received(CNPId, NP)                // NP: number of participants
 +jag_sleeping : n(N) & .count( done(_), N )
    <- .stopMAS.
 
-+!cnp(Id,Task) {
++!cnp(Id,Task)
     <- !call(LP);
        !bids(LP);
        !winner(LO,W);
        !result(LO,W);
        +done(Id).
+    {
+      +!call(LP)
+         <- .df_search("participant",LP);
+            .send(LP,tell,cfp(Id,Task)).
 
-    +!call(LP)
-       <- .df_search("participant",LP);
-          .send(LP,tell,cfp(Id,Task)).
-
-    +!bids(LP) : all_proposals_received(Id, .length(LP)). // all proposals received before starting 'bids'
-    +!bids(LP) : NP = .length(LP) <: false {
-       <- .wait(4000); .done.
-       +propose(Id,_) : all_proposals_received(Id, NP) <- .done.
-       +refuse(Id)    : all_proposals_received(Id, NP) <- .done.
-    }
+      +!bids(LP) : all_proposals_received(Id, .length(LP)). // all proposals received before starting 'bids'
+      +!bids(LP) : NP = .length(LP) <: false
+         <- .wait(4000); .done.
+         {
+           +propose(Id,_) : all_proposals_received(Id, NP) <- .done.
+           +refuse(Id)    : all_proposals_received(Id, NP) <- .done.
+         }
     //+!bids(LP) // the deadline of the CNP is now + 4 seconds (or all proposals received)
     //  <- .wait(all_proposals_received(Id,.length(LP)), 4000, _).
 
